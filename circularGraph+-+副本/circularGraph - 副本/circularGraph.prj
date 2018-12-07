@@ -1,0 +1,118 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="2233561716" file="G:\code\circularGraph+-+副本\circularGraph - 副本\circularGraph.prj" location="G:\code\circularGraph+-+副本\circularGraph - 副本" name="circularGraph" target="target.toolbox" target-name="工具箱打包">
+    <param.appname>circularGraph</param.appname>
+    <param.authnamewatermark>Paul Kassebaum</param.authnamewatermark>
+    <param.email>paul.kassebaum@mathworks.com</param.email>
+    <param.company>MathWorks</param.company>
+    <param.summary>Plot an interactive circular graph to illustrate connections in a network.</param.summary>
+    <param.description>A 'circular graph' is a visualization of a network of nodes and their connections. The nodes are laid out along a circle, and the connections are drawn within the circle. Click on a node to make the connections that emanate from it more visible or less visible. Click on the 'Show All' button to make all nodes and their connections visible. Click on the 'Hide All' button to make all nodes and their connections less visible.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\circularGraph.PNG</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.output>${PROJECT_ROOT}\circularGraph.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>04027212-1e6d-49d4-84fa-f66cc29418de</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.git</param.exclude.filters>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="circularGraph"&gt;
+      &lt;example name="example" type="html"&gt;
+         &lt;file type="source"&gt;/html/example.html&lt;/file&gt;
+         &lt;file type="main"&gt;/example.m&lt;/file&gt;
+         &lt;file type="thumbnail"&gt;/html/example.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/example_01.png&lt;/file&gt;
+         &lt;file type="image"&gt;/html/example_02.png&lt;/file&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <unset>
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+    </unset>
+    <fileset.rootdir>
+      <file>C:\Users\pkasseba\Documents\MATLAB\circularGraph</file>
+    </fileset.rootdir>
+    <fileset.rootfiles />
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\code\circularGraph+-+副本\circularGraph - 副本" name="circularGraph.mltbx" optional="false">G:\code\circularGraph+-+副本\circularGraph - 副本\circularGraph.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\matlab2015</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
